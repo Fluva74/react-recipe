@@ -17,7 +17,7 @@ export default function HeroSection(){
             <div className="col typography">
                 <h1 className="title">Do You Love Food?</h1>
                 <p className="info"><span className="logo-text">dinner?</span> is a place for food lovers made BY food lovers. Start with an ingredient and explore the possibilities. New cuisine ideas are just a click away...</p>
-                <button className="btn">explore</button>
+                <button className="btn"><a  href="/Recipes">Explore</a></button>
             </div>
             <div className="col gallery">
                 { images.map((src, index) => (
