@@ -1,0 +1,62 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe {
+    height: auto;
+    width: auto;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgb(71, 71, 71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    min-width: 40%;
+}
+
+h1 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+p {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-weight: 500;
+    color: rgb(76, 76, 76);
+}
+
+.content {
+    text-align: center;
+}
+
+.img {
+    margin-top: 1em;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+@media (min-width: 1050px) {
+    .recipe {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .img {
+        display: block;
+        width: 100%;
+        width: 250px;
+        border-radius: 0 10px 10px 0;
+    }
+}
